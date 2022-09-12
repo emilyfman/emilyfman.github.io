@@ -41,9 +41,12 @@ hr {
 .article-desc {
   width: 60%;
 }
-.article-desc > a {
+.article-list a {
+  color: #000;
   text-decoration: none;
-  font-weight: bold;
+}
+.article-list > a:hover, .article-list > a:focus, .article-list > a:active {
+  text-decoration: underline;
 }
 .date {
   color: #777;

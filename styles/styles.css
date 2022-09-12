@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: .25ch auto;
+  border: none;
+}
+html {
+  font: 1.25em/1.5 "Helvetica Neue", Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  max-width: 70ch;
+  padding: 1ch;
+  margin: auto;
+}
+h1 {
+  margin-top: 0;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+hr {
+  background: #000;
+  height: .2ch;
+}
+.horizontal {
+  display: flex;
+}
+.horizontal > * {
+  margin-right: 1ch;
+}
+.horizontal > *:last-child {
+  margin-right: 0;
+}
+.article-img {
+  width: 40%;
+  height: auto;
+}
+.article-desc {
+  width: 60%;
+}
+.article-desc > a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.date {
+  color: #777;
+  margin-top: 1ch;
+}
+#bio-text {
+  width: 70%;
+}
+#headshot {
+  max-width: 30ch;
+}

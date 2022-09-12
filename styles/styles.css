@@ -15,6 +15,9 @@ body {
 h1 {
   margin-top: 0;
 }
+h2 {
+  margin-top: 2ch
+}
 a:hover, a:focus, a:active {
   text-decoration: none;
 }

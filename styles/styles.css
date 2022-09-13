@@ -18,9 +18,6 @@ h1 {
 h2 {
   margin-top: 2ch
 }
-p {
-  margin-top: .5ch
-}
 a:hover, a:focus, a:active {
   text-decoration: none;
 }
@@ -58,8 +55,11 @@ hr {
   color: #777;
   margin-top: 1ch;
 }
-#bio-text {
+#bio {
   width: 70%;
+}
+#bio-text p {
+  margin-bottom: 1ch
 }
 #headshot {
   max-width: 30ch;
